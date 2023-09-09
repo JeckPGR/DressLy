@@ -1,0 +1,186 @@
+/* @media screen and (max-width: 800px) {
+  #hamburg {
+    display: block;
+    font-size: 1.5em;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .navbar nav ul li a {
+    display: none;
+  }
+
+  .Container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .Container .leftcontent {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .leftcontent p,
+  .leftcontent h1 {
+    justify-self: center;
+  }
+} */
+
+@media screen and (max-width: 415px) {
+  .navbar {
+    display: flex;
+  }
+
+  header .navbar nav ul {
+    display: none;
+  }
+
+  header .icontop {
+    display: none;
+  }
+
+  .Container {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Container .leftcontent {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .leftcontent h1 {
+    white-space: normal;
+    font-size: 1.8em;
+    flex-wrap: wrap;
+    width: 300px;
+  }
+
+  .leftcontent p {
+    font-size: 12px;
+    width: 270px;
+  }
+
+  .leftcontent a {
+    width: 80%;
+  }
+
+  .rightcontent {
+    display: flex;
+    position: relative;
+  }
+  .rightcontent img {
+    width: 400px;
+    position: relative;
+    left: -15%;
+  }
+
+  .Topselect {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 10px 15px;
+  }
+
+  .Topselect h1 {
+    font-size: 1.3em;
+    margin-bottom: 0;
+  }
+  #BestSelling .text a {
+    background-color: transparent;
+    color: #e09370;
+    font-size: 14px;
+  }
+
+  .gridsell {
+    display: flex;
+    overflow-x: auto;
+    width: 100%;
+    white-space: nowrap;
+  }
+
+  .container-order {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    align-items: flex-start;
+  }
+  .container-order .Order {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    position: relative;
+  }
+  .container-order .Order h1 {
+    font-size: 1.5em;
+  }
+
+  .Order .ordertl {
+    margin-top: -15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100px;
+    gap: 35px;
+    z-index: 4;
+  }
+  .Order .ordertl .tl::after {
+    content: "";
+    background: repeating-linear-gradient(90deg, #a14b38 0 3px, #0000 0 25px);
+    position: absolute;
+    width: 2px;
+    top: 50%;
+    left: 50%;
+    height: 80px;
+    z-index: -1;
+  }
+
+  .Order .order-text {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    position: absolute;
+    right: 8%;
+    top: 15%;
+  }
+
+  .newsletter {
+    width: 100vw;
+  }
+
+  .newsletter h1 {
+    width: 300px;
+  }
+  .newsletter .input {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+  }
+
+  .containerfoot {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    width: 400px;
+    padding: 0;
+  }
+  .containerfoot .procat {
+    margin: 0;
+  }
+  .containerfoot .procat h1 {
+    margin-bottom: 10px;
+  }
+}
